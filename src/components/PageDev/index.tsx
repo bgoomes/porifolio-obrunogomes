@@ -1,5 +1,5 @@
 import { Redes } from "../ui/Redes";
-import img from "../../assets/Manutenção.svg"
+import img from "../../assets/manutencao.svg"
 
 export function Dev() {
     return (
