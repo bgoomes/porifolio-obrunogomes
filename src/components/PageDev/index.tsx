@@ -10,6 +10,7 @@ export function Dev() {
         </div>
         <div>
           <Redes />
+         
         </div> 
       </div>
     

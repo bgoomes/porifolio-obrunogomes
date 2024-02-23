@@ -1,9 +1,9 @@
-import { Dev } from "./components/PageDev";
+
 
 export function App() {
   return (
     <div>
-      <Dev />
+      <h1>App</h1>
     </div>
   
   )
