@@ -6,8 +6,7 @@ export function Router(){
     return (
         <Routes>
           <Route path='/' element={<Dev />} />
-            <Route path='/dev' element={<App />} />   
-          <Route />  
+          <Route path='/dev' element={<App />} />   
         </Routes>
     )
 }
