@@ -1,3 +1,4 @@
+
 import { Redes } from "../ui/Redes";
 import { Button } from "../ui/button";
 
@@ -12,8 +13,13 @@ export function Footer(){
                     </p>
                 </header> 
                 <Button title="Fale comigo!"/>
-                <div>
-                   <Redes />  
+                <div className="flex flex-col items-center">
+                   <Redes />
+                   <div className="w-full flex justify-between">
+                        <span className="text-xs text-zinc-400">© 2024 - Todos direitos reservados</span>
+                        <span className="text-xs text-zinc-400">Desenvolvido por @obrunogomesreal</span>
+                   </div>
+                   
                 </div>
             </div>
                 

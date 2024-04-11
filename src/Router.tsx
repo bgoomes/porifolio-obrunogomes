@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
 import { App } from './App'
-import { Dev } from './components/PageDev'
+import { Home } from './page/Home'
 
 export function Router(){
     return (
         <Routes>
-          <Route path='/' element={<Dev />} />
-          <Route path='/dev' element={<App />} />   
+          <Route path='/' element={<App />} />
+          <Route path='/home' element={<Home />} />
         </Routes>
     )
 }

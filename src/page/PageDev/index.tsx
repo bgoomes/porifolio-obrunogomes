@@ -1,4 +1,4 @@
-import { Redes } from "../ui/Redes";
+import { Redes } from "../../components/ui/Redes";
 import img from "../../assets/manutencao.svg"
 
 export function Dev() {

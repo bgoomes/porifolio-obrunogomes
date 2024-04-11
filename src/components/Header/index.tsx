@@ -9,9 +9,9 @@ export function Header(){
                 </div>
                     <nav>
                         <ul className="flex gap-8">
-                            <li>Sobre</li>
-                            <li>Projetos</li>
-                            <li><Link to="#footer">Contato</Link></li>
+                            <li><Link to="#">Sobre</Link></li>
+                            <li><Link to="#">Projetos</Link></li>
+                            <li><Link to="#">Contato</Link></li>
                         </ul>
                     </nav>
              </div>
