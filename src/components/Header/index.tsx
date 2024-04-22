@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Header(){
     return (
-        <header className="w-full h-20 border-b-4 border-white/10 bg-zinc-800 text-slate-300 fixed">
+        <header className="w-full h-20 shadow-zinc-750 shadow-md bg-zinc-800 text-slate-300 z-10 fixed">
             <div className=" max-w-6xl m-auto flex flex-row p-6 justify-between">
                 <div>
                    <Link to="/home"> <h1>obrunogomesreal</h1></Link>

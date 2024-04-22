@@ -1,19 +1,22 @@
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
-
+import img from "../../assets/manutencao.svg"
 export function Sobre() {
     return (
-        <main>
-        <Header />
-        <section className="w-full h-svh py-24  flex justify-center bg-zinc-800">
-          <div className="max-w-7xl border rounded-md flex flex-row items-center justify-between gap-2">
-            <div className=" w-2/4">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos similique, et deleniti dicta earum veniam ducimus ab officia quibusdam beatae porro accusantium officiis quia voluptatum. Autem quia error nemo ducimus.</p>
+        
+        <section className="w-full h-svh flex bg-zinc-800">
+          <div className="w-[1150px] m-auto p-4 shadow-zinc-750 shadow-md rounded-md  flex flex-row  gap-20">
+            <div className="w-2/4">
+              <div className="p-6">
+                <p>Me chamo Bruno Gomes...</p>
+                <p>Tenho 35 anos sou cristão, casado e pai da Manu!</p>
+                <p>Durante muito tempo trabahando na área de manutenção, resolvi mudar para desenvolvimento, focado em fron</p>
+              </div>
             </div>
-            <div>img</div>
+            <div className="w-2/4 h-96 flex items-center">
+              <img src={img} alt="Foto" className="w-[400px]" />
+            </div>
           </div>
         </section>
-        <Footer />
-      </main>
+        
+      
     )
 }

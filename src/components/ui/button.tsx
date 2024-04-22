@@ -1,6 +1,6 @@
 import { AddressBook, Coffee } from "@phosphor-icons/react"
 interface buttonType {
-    title: string,
+    title?: string,
     iconBook?: boolean,
     bgcolor?: boolean
 }
