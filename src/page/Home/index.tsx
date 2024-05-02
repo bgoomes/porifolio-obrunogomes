@@ -1,27 +1,30 @@
+
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Redes } from "../../components/ui/Redes";
-import { Button } from "../../components/ui/button";
+
 import { Contato } from "../Contato";
 import { Projetos } from "../Projetos";
 import { Sobre } from "../Sobre";
+import { EscreveTexto } from "../../components/ui/escrevenatela";
 
 export function Home(){
+  
     return (
       <main>
         <Header />
         <section className="relative w-full h-svh flex flex-col justify-center items-center gap-10 bg-white">
           
-          <div className="absolute top-80 max-w-7xl p-2 text-slate-700 mb-3">
-              <h1 className="text-2xl">Olá, eu sou o Bruno...</h1>
-              <h2 className="text-6xl">Front End</h2>
-              <h2 className="text-9xl">Web Developer</h2>
+          <div className="absolute top-[250px] flex flex-col items-center  max-w-7xl p-2 text-slate-700 mb-3">
+              <h1 className="text-2xl">Olá, eu sou o...</h1>
+              <h2 className="text-6xl">Bruno Gomes</h2>        
           </div>
-          <div className="absolute max-w-7xl right-[270px] top-[340px] flex flex-row gap-6 p-5 items-center justify-center text-zinc-700">
-            <Redes />
+          <div className="text-slate-700 mt-20">
+              <h2 className="text-9xl"><EscreveTexto /></h2>
           </div>
-          <div className="absolute bottom-20">
-            <Button  title="Vamos conversar..." />
+          
+          <div className="absolute bottom-20 text-black">
+            <Redes /> 
           </div>
         </section>
         <Sobre />

@@ -7,7 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'sans': ['Lato', 'sans-serif']
+        'sans': ['Lato', 'sans-serif'],
+        'JMH': ['JMH', 'sans-serif']
+      },
+
+      colors: {
+        'green': '#55FC10'
       }
     },
   },
