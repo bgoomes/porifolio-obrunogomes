@@ -1,12 +1,12 @@
 export function Tech(){
     return (
-        <div>
+        <div className="w-full">
             <div>
-                <ul className='flex flex-row gap-3 py-5'>
-                    <li></li> 
-                    <li></li> 
-                    <li></li> 
-                    <li></li> 
+                <ul className='flex flex-row gap-10 justify-center py-5 text-black'>
+                    <li>1</li> 
+                    <li>2</li> 
+                    <li>3</li> 
+                    <li>4</li> 
                 </ul>
             </div>
         </div>
