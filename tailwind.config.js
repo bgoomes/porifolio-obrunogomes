@@ -13,6 +13,16 @@ export default {
 
       colors: {
         'green': '#55FC10'
+      },
+      animation:{
+        "barra": 'barra 1s ease-in-out infinite'
+      },
+      keyframes: {
+        barra: {
+          '0%, 100%': { opacity: 0},
+          '50%': {opacity: 1},
+
+        }
       }
     },
   },

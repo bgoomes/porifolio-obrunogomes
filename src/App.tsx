@@ -1,6 +1,6 @@
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
-import { Contato } from "./page/Contato";
+
 import { Home } from "./page/Home";
 import { Projetos } from "./page/Projetos";
 import { Sobre } from "./page/Sobre";
@@ -14,7 +14,7 @@ export function App() {
       <Home />
       <Sobre />
       <Projetos />
-      <Contato />
+      
       <Footer />
     </main>
     

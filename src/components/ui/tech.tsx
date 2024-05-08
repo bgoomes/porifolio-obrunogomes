@@ -1,14 +1,26 @@
+import Marquee from "react-fast-marquee";
+import css from "../../assets/logo-css3.svg"
+import html from "../../assets/logo-html5.svg"
+import react from "../../assets/logo-react.svg"
+import js from "../../assets/logo-nodejs.svg"
+import vite from "../../assets/vite_logo_icon_249258.svg"
+import vercel from "../../assets/logo-vercel.svg"
+import wp from "../../assets/logo-wordpress.svg"
+
 export function Tech(){
     return (
-        <div className="w-full">
-            <div>
-                <ul className='flex flex-row gap-10 justify-center py-5 text-black'>
-                    <li>1</li> 
-                    <li>2</li> 
-                    <li>3</li> 
-                    <li>4</li> 
-                </ul>
-            </div>
+        <div className="sm:w-full">
+            <Marquee speed={70} pauseOnHover >
+                <div className="flex flex-row items-center gap-2 sm:gap-20 w-8 sm:w-16">
+                    <img src={css} alt="CSS" className="hover:scale-110" />
+                    <img src={html} alt="HTML" className="hover:scale-110"/>
+                    <img src={js} alt="JS" className="hover:scale-110"/>
+                    <img src={vite} alt=" Vite"  className="hover:scale-110"/>
+                    <img src={vercel} alt="Vercel"  className="hover:scale-110"/>
+                    <img src={react} alt="React"  className="hover:scale-110"/>
+                    <img src={wp} alt="WordPress"  className="hover:scale-110"/>
+                </div>   
+            </Marquee>
         </div>
     )
 }

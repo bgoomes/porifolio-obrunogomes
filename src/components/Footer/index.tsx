@@ -4,8 +4,8 @@ import { Button } from "../ui/button";
 
 export function Footer(){
     return(
-        <footer id="fotter" className="w-full p-4 bg-zinc-800 text-gray-100 font-light">
-            <div className=" max-w-6xl m-auto p-6 rounded-xl bg-zinc-700">
+        <footer id="footer" className="w-full p-4 bg-zinc-800 text-gray-100 font-light">
+            <div className=" max-w-6xl m-auto p-6 rounded-xl ">
                 <header className="flex flex-col mb-4">
                     <span>Vamos conversar?</span>
                     <p>
@@ -15,7 +15,7 @@ export function Footer(){
                 <Button title="Fale comigo!"/>
                 <div className="flex flex-col items-center">
                    <Redes />
-                   <div className="w-full flex justify-between">
+                   <div className="w-full flex flex-col items-center sm:flex-row sm:justify-between">
                         <span className="text-xs text-zinc-400">© 2024 - Todos direitos reservados</span>
                         <span className="text-xs text-zinc-400">Desenvolvido com 💚 por @obrunogomesreal</span>
                    </div>
