@@ -7,8 +7,8 @@ import { Dev } from './page/PageDev'
 export function Router(){
     return (
         <Routes>
-          <Route path='/' element={<Dev/>} />
-          <Route path='/home' element={<App />} />
+          <Route path='/' element={<App/>} />
+          <Route path='/dev' element={<Dev />} />
         </Routes>
     )
 }

@@ -1,6 +1,8 @@
 import { Card } from "../../components/ui/cardProjetos";
 import { Title } from "../../components/ui/title";
-import { projetos } from "../../data/projetos.json"
+import fit from "../../assets/fitprotein.png"
+import todo from "../../assets/todo.png"
+import link from "../../assets/links.png"
 
 
 export function Projetos() {
@@ -9,19 +11,38 @@ export function Projetos() {
       <div className="w-full sm:w-[1080px] m-auto flex flex-col gap-10">
         <Title title="Projetos" />
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4"> 
-         {projetos.map((proj) => {
-            return(
-              <Card 
-                  key={proj.id}
-                  title={proj.title}
-                  description={proj.description}
-                  cover={proj.cover} 
-                  linkGit={proj.linkGit}  
-                  linkURL={proj.linkIRL} 
+          <Card 
+                title="FitProtein"
+                description="Página para venda de produto de mix de proteínas."
+                cover={fit}
+                tag1="React"
+                tag2="Tailwind"
+                tag3="vite"
+                linkGit="https://github.com/bgoomes/fitProtein"  
+                linkURL="https://fit-protein.vercel.app"
                 
-              />
-            )
-         })}
+          />  
+          <Card
+                title="to do"
+                description="App criado como desafio da trilha de React da Rocketseat"
+                cover={todo}
+                tag1="React"
+                tag2="CSS Module"
+                tag3="Figma"
+                linkGit="https://github.com/bgoomes/fundamentosReact-ignite-Desafio01/tree/main"
+                linkURL="https://minhalistatarefas.vercel.app/" 
+          />
+
+          <Card
+                title="Links"
+                description="Página de link úteis criada em HTML e CSS."
+                cover={link}
+                tag1="HTML"
+                tag2="CSS"
+                tag3="JavaScript"
+                linkGit="https://github.com/bgoomes/"
+                linkURL="https://obrunogomesreal.vercel.app/" 
+          />
         </div>
       </div>
       

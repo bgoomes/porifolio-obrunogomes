@@ -14,7 +14,6 @@ export function App() {
       <Home />
       <Sobre />
       <Projetos />
-      
       <Footer />
     </main>
     

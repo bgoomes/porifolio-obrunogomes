@@ -1,5 +1,7 @@
 interface Props{
     tag: string
+    tag1: string
+    tag2: string
 }
 export function Tags({tag}: Props){
    
