@@ -12,13 +12,13 @@ export function Tech(){
         <div className="sm:w-full">
             <Marquee speed={70} pauseOnHover >
                 <div className="flex flex-row items-center gap-2 sm:gap-20 w-8 sm:w-16">
-                    <img src={css} alt="CSS" className="hover:scale-110" />
-                    <img src={html} alt="HTML" className="hover:scale-110"/>
-                    <img src={js} alt="JS" className="hover:scale-110"/>
-                    <img src={vite} alt=" Vite"  className="hover:scale-110"/>
-                    <img src={vercel} alt="Vercel"  className="hover:scale-110"/>
-                    <img src={react} alt="React"  className="hover:scale-110"/>
-                    <img src={wp} alt="WordPress"  className="hover:scale-110"/>
+                    <img src={css} alt="CSS" title="CSS"/>
+                    <img src={html} alt="HTML" title="HTML"/>
+                    <img src={js} alt="JS" title="JS"/>
+                    <img src={vite} alt=" Vite"  title="Vite"/>
+                    <img src={vercel} alt="Vercel"  title="Vercel"/>
+                    <img src={react} alt="React"  title="React"/>
+                    <img src={wp} alt="WordPress"  title="WorPress"/>
                 </div>   
             </Marquee>
         </div>

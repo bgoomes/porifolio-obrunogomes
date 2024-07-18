@@ -21,7 +21,7 @@ export function Sobre() {
                   Sou estudante de <Destaque text="Sistemas para Internet" />, e focado em <Destaque text="Desenvolvimento Web frontend" />.
                 </p>
                 <p>
-                  Durante minha jornada, já atuei como lider de equipe, gerenciando toda parte de processos de uma assistencia técnica em smarphones, atualmete
+                  Durante minha jornada, já atuei como lider de equipe, gerenciando toda parte de processos de uma assistencia técnica em smartphones, atualmente
                   estou focado nos estudos em desenvolvimento web com foco no front utilizando as tecnológias: <Destaque text="React, Tailwind, JS, TS" />.
                 </p>
                 <p>Atuo tambêm com desenvolvimento em Wordpress com criação de paginas!</p>
