@@ -3,7 +3,7 @@ import { Title } from "../../components/ui/title";
 import fit from "../../assets/fitprotein.png"
 import todo from "../../assets/todo.png"
 import link from "../../assets/links.png"
-
+import gio from "../../assets/gio.png"
 
 export function Projetos() {
     return (
@@ -11,6 +11,16 @@ export function Projetos() {
       <div className="w-full sm:w-[1080px] m-auto flex flex-col gap-10">
         <Title title="Projetos" />
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4"> 
+        <Card
+                title="GIO"
+                description="Site da Agência de cultura de marca GIO"
+                cover={gio}
+                tag1="Wordpress"
+                tag2="CSS"
+                tag3="PHP"
+                linkGit="https://github.com/bgoomes/"
+                linkURL="https://gio.com.vc" 
+          />
           <Card 
                 title="FitProtein"
                 description="Página para venda de produto de mix de proteínas."
@@ -43,6 +53,8 @@ export function Projetos() {
                 linkGit="https://github.com/bgoomes/"
                 linkURL="https://obrunogomesreal.vercel.app/" 
           />
+
+          
         </div>
       </div>
       
