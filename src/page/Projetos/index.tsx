@@ -4,6 +4,7 @@ import fit from "../../assets/fitprotein.png"
 import todo from "../../assets/todo.png"
 import link from "../../assets/links.png"
 import gio from "../../assets/gio.png"
+import reacao from "../../assets/reacao.png"
 
 export function Projetos() {
     return (
@@ -43,6 +44,17 @@ export function Projetos() {
                 linkURL="https://minhalistatarefas.vercel.app/" 
           />
 
+      
+           <Card
+                title="Contador de Reações"
+                description="Contador criado em JS para saber numero de reações em um post."
+                cover={reacao}
+                tag1="HTML"
+                tag2="CSS"
+                tag3="JavaScript"
+                linkGit="https://github.com/bgoomes/"
+                linkURL="https://reacaoconexao.vercel.app/" 
+          />
           <Card
                 title="Links"
                 description="Página de link úteis criada em HTML e CSS."
