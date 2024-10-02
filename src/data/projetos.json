@@ -5,57 +5,15 @@
             "id": 1,
             "title": "FitProtein",
             "description": "Pagina criada para venda de produto, mix de proteínas FitProtein.",
-            "cover": "",
-            "tags": "React",
+            "cover": "/fitprotein.png",
+            "tags": {
+                "tag1": "html",
+                "tag2": "CSS",
+                "tag3": "React"
+            },
             "linkGit": "https://github.com/bgoomes/fitProtein",
             "linkIRL": "https://fit-protein.vercel.app"
-        },
-        {
-            "id": 2,
-            "title": "to do",
-            "description": "App criado como desafio da trilha de React da Rocketseat",
-            "cover": "",
-            "tags": "React",
-            "linkGit": "https://github.com/bgoomes/",
-            "linkIRL": " https://minhalistatarefas.vercel.app/"
-        },
-        {
-            "id": 3,
-            "title": "DT Money",
-            "description": "App criado como desafio da trilha de React da Rocketseat",
-            "cover": "",
-            "tags": "React",
-            "linkGit": "https://github.com/bgoomes/DT-Money",
-            "linkIRL": "https://controledegastos-two.vercel.app/"
-        },
-        {
-            "id": 4,
-            "title": "Links",
-            "description": "Página de link úteis criada em HTML e CSS.",
-            "cover": "",
-            "tags": "React",
-            "linkGit": "https://github.com/bgoomes/",
-            "linkIRL": "https://obrunogomesreal.vercel.app/"
-        },
-        {
-            "id": 5,
-            "title": "NLW Expert React",
-            "description": "Projeto criado em 3 aulas no NLW expert na trilha de react da Rocketseat",
-            "cover": "",
-            "tags": "React",
-            "linkGit": "https://github.com/bgoomes/",
-            "linkIRL": "https://nlw-expert-react-notes-orpin.vercel.app/"
-        },
-        {
-            "id": 6,
-            "title": "Universe",
-            "description": "Projeto criado como desafio da trilha do explorer da Rocketseat, usando SPA em javascript",
-            "cover": "",
-            "tags": "React",
-            "linkGit": "https://github.com/bgoomes/",
-            "linkIRL": "https://universehome.vercel.app/"
         }
-
 
     ] 
 }

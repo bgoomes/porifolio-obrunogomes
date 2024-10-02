@@ -11,7 +11,7 @@ export function Home(){
               <h2 className="sm:text-6xl text-2xl">Bruno Gomes</h2>        
           </div>
           <div className="text-slate-700 mt-20">
-              <h2 className="sm:text-9xl text-4xl"><EscreveTexto /></h2>
+              <h2 className="sm:text-8xl text-4xl"><EscreveTexto /></h2>
           </div>
           
           <div className="absolute bottom-20 text-black">

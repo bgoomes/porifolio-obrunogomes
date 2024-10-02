@@ -9,6 +9,6 @@ export function Title({title}: Props){
         <h1 className="text-black font-bold text-2xl text-center">
             {title} 
             <Barra />
-            </h1>
+        </h1>
     )
 }
