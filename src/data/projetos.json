@@ -7,14 +7,29 @@
             "description": "Pagina criada para venda de produto, mix de proteínas FitProtein.",
             "cover": "/fitprotein.png",
             "tags": {
-                "tag1": "html",
-                "tag2": "CSS",
-                "tag3": "React"
+                "tag1": "React",
+                "tag2": "Javascript",
+                "tag3": "Tailwind"
             },
             "linkGit": "https://github.com/bgoomes/fitProtein",
-            "linkIRL": "https://fit-protein.vercel.app"
+            "linkURL": "https://fit-protein.vercel.app"
+        },
+        {
+            "id": 2,
+            "title": "GIO",
+            "description": "Site da Agência de cultura de marca GIO",
+            "cover": "/gio.png",
+            "tags": {
+                "tag1": "Wordpress",
+                "tag2": "CSS",
+                "tag3": "PHP"
+                },
+            "linkGit": "https://github.com/bgoomes/gio",
+            "linkURL": "https://gio.com.vc"     
         }
 
     ] 
 }
+
+
 

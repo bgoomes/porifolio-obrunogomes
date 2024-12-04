@@ -27,7 +27,7 @@ export function Sobre() {
               </div>
               <div className="w-full sm:w-1/2 flex flex-col justify-center font-JMH gap-4 text-gray-600">
                 <p>
-                  Me chamo <Destaque text="Bruno" />, Cristão, tenho {getAge('1989/01/16')} anos, sou casado e pai da <Destaque text="Manu"/>!
+                  Me chamo <Destaque text="Bruno" />, tenho {getAge('1989/01/16')} anos, sou casado e pai da <Destaque text="Manu"/>!
                 </p>
                 <p>
                   Sou estudante de <Destaque text="Sistemas para Internet" />, e focado em <Destaque text="Desenvolvimento Web frontend" />.
