@@ -16,7 +16,7 @@ export function Footer(){
                 <div className="flex flex-col items-center">
                    <Redes />
                    <div className="w-full flex flex-col items-center sm:flex-row sm:justify-between">
-                        <span className="text-xs text-zinc-400">© 2024 - Todos direitos reservados</span>
+                        <span className="text-xs text-zinc-400">© 2025 - Todos direitos reservados</span>
                         <span className="text-xs text-zinc-400">Desenvolvido com 💚 por @obrunogomesreal</span>
                    </div>
                    

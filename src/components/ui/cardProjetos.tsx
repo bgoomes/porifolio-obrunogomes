@@ -18,8 +18,8 @@ interface PropsCard {
 export function Card({ title, description, cover, linkGit, linkURL, tag1, tag2, tag3 }:PropsCard){
     return (
         <div className="w-full sm:w-[440px] overflow-hidden  border m-auto mb-4 rounded-xl shadow-xl text-black flex flex-col justify-between hover:shadow-2xl">
-            <div >
-                <img src={cover} alt="Previa do site" />
+            <div className="h-[230px]" >
+                <img src={cover} alt="Previa do site" className=" object-cover" />
             </div>
             <div className="p-4 flex flex-col items-center w-full gap-6">
                 <h1 className="text-xl font-bold uppercase">{title}</h1>

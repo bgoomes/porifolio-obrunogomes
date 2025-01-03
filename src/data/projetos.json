@@ -26,6 +26,32 @@
                 },
             "linkGit": "https://github.com/bgoomes/gio",
             "linkURL": "https://gio.com.vc"     
+        },
+        {
+            "id": 4,
+            "title": "TO DO",
+            "description": "Página para anotações de tarefas!",
+            "cover": "/todo.png",
+            "tags": {
+                "tag1": "Vite",
+                "tag2": "React",
+                "tag3": "CSS-Module"
+                },
+            "linkGit": "https://github.com/bgoomes/fundamentosReact-ignite-Desafio01",
+            "linkURL": "https://minhalistatarefas.vercel.app/"     
+        },
+        {
+            "id": 5,
+            "title": "Adivinhe",
+            "description": "Jogo para adivinhar qual palavra!",
+            "cover": "/advinhe.png",
+            "tags": {
+                "tag1": "React",
+                "tag2": "CSS Module",
+                "tag3": "Typescript"
+                },
+            "linkGit": "https://github.com/bgoomes/adivinhe",
+            "linkURL": "https://adivinhequalpalavra.vercel.app/"     
         }
 
     ] 
